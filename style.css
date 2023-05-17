@@ -20,7 +20,7 @@ body {
   border-bottom: 1px solid;
 }
 .pricing-img {
-  width: fit-content;
+  width: auto;
 }
 .pricing-features{
   font-size: 1.5em;
