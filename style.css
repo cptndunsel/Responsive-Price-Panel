@@ -60,7 +60,7 @@ body {
   background-color: rgb(0, 132, 255);
 }
 @media screen and (max-width: 768px) {
-  /* Tablet View */
+  /* Tablet and Mobile View */
   body {
     position: initial;
     transform: initial;
@@ -83,26 +83,3 @@ body {
   }
 }
 
-@media screen and (max-width: 480px) {
-  /* Mobile View */
-  body {
-    position: initial;
-    transform: initial;
-  }
-
-  .panel {
-    flex-direction: column;
-    height: auto;
-    width: auto;
-  }
-
-  .pricing-img {
-    margin: 0 auto;
-    width: 90%;
-  }
-
-  .pricing-price {
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-}
